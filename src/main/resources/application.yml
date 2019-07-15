@@ -1,0 +1,10 @@
+togglz:
+  console:
+    enabled: true
+    path: /togglz-console
+    secured: false
+    use-management-port: false
+
+redis:
+  server:
+    host: redis
