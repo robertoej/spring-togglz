@@ -29,6 +29,5 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 // WARNING: plain text secrets should not be used in production.
                 .password("{noop}secret")
                 .roles("ADMIN");
-
     }
 }
