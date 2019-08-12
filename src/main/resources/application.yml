@@ -1,8 +1,8 @@
 togglz:
   console:
-    secured: false
+    secured: true
     use-management-port: false
-
+    feature-admin-authority: ROLE_ADMIN
 redis:
   server:
-    host: redis
+    host: localhost
