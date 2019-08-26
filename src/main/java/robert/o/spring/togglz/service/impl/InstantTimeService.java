@@ -15,8 +15,7 @@ public class InstantTimeService implements TimeService {
     private FeatureManager featureManager;
     private DateService dateService;
 
-    public InstantTimeService(FeatureManager featureManager,
-                              DateService dateService) {
+    public InstantTimeService(FeatureManager featureManager, DateService dateService) {
 
         this.featureManager = featureManager;
         this.dateService = dateService;
