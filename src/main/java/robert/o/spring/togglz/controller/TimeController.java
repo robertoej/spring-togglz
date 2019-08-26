@@ -18,7 +18,6 @@ public class TimeController {
 
     @GetMapping("now")
     public String now() {
-
         return timeService.now();
     }
 }
